@@ -1,0 +1,120 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #eef2ff, #d7e1ff);
+    color: #333;
+}
+
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 1rem 2rem;
+background-color: #fff;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+  
+header .logo {
+font-size: 1.5rem;
+font-weight: bold;
+}
+  
+header nav ul {
+display: flex;
+list-style: none;
+gap: 1rem;
+margin: 0;
+padding: 0;
+}
+  
+header nav ul li a {
+text-decoration: none;
+color: #333;
+transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+  color: #00bfff;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 80px);
+  padding: 20px;
+}
+
+.background-overlay {
+    width: 100%;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+.form-container {
+  background: linear-gradient(to bottom, #fff, #e0e0ff);
+  color: #333;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  max-width: 400px;
+  width: 100%;
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-container .back-btn {
+  font-family: 'Poppins', sans-serif;
+  border: none;
+  background: none;
+  font-size: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: #001d3d;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container label {
+  margin: 10px 0 5px;
+}
+
+.form-container input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.form-container input:focus {
+  outline: none;
+  border-color: #666;
+}
+
+.submit-btn {
+  background: #001d3d;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.submit-btn:hover {
+  background: #0056b3;
+}
