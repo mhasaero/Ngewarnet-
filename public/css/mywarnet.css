@@ -76,6 +76,7 @@ body {
 }
 
 .action-btn {
+    font-family: 'Poppins', sans-serif;
     background: #1A2A43;
     color: white;
     border: none;
