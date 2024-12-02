@@ -17,3 +17,11 @@ Route::get('/daftar', function () {
 Route::get('/login', function () {
     return view('login');
 });
+
+Route::get('/home', function () {
+    return view('home');
+});
+
+Route::get('/mywarnet', function () {
+    return view('mywarnet');
+});
