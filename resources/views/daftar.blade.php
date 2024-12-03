@@ -24,7 +24,7 @@
   <main>
     <div class="background-overlay">
       <div class="form-container">
-        <button class="back-btn">&larr;</button>
+      <button class="back-btn">&larr;</button>
         <h2>Daftar Ngewarnet!!!</h2>
         <form>
           <label for="email">Email</label>
@@ -44,5 +44,7 @@
       </div>
     </div>
   </main>
+
+  <script src="{{ asset('js/daftar.js') }}"></script>
 </body>
 </html>

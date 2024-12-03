@@ -35,5 +35,7 @@
       <img src="LaptopWarnet.png" alt="Ilustrasi Laptop" />
     </div>
   </main>
+
+  <script src="{{ asset('js/tampilanawal.js') }}"></script>
 </body>
 </html>
