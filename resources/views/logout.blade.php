@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Warnet</title>
-    <link rel="stylesheet" href="{{ asset('css/mywarnet.css') }}">
+    <title>Logout Modal</title>
+    <link rel="stylesheet" href="{{ asset('css/logout.css') }}">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -14,29 +14,30 @@
             <div class="profile">
                 <div class="profile-img"></div>
                 <h3>Si Bera-bera (Admin)</h3>
-                <p>ID: (001)</p>
+                <p>UID: (001)</p>
                 <p>Looking for orders</p>
             </div>
             <nav>
                 <ul>
-                    <li><a href="mywarnet" class="active">My Warnet</a></li>
+                    <li><a href="mywarnet">My Warnet</a></li>
                     <li><a href="profile">Profile</a></li>
-                    <li><a href="logout">Logout</a></li>
+                    <li><a href="logout" class="active">Logout</a></li>
                 </ul>
             </nav>
         </div>
 
-        <!-- Main Content -->
-        <div class="content">
-            <h1>Ngewarnet!!!</h1>
-            <button id="add-pc-btn" class="action-btn">Tambah PC</button>
-            <button id="remove-pc-btn" class="action-btn">Kurangi PC</button>
-            <div id="pc-list" class="pc-list">
-                <!-- PC cards will be dynamically added here -->
+        <!-- Logout Modal -->
+        <div id="logout" class="hidden">
+            <div class="modal-content">
+                <p>Apakah yakin ingin log out?</p>
+                <div class="modal-buttons">
+                    <button id="cancel-logout" class="cancel-btn">Tidak</button>
+                    <button id="confirm-logout" class="logout-btn">Logout</button>
+                </div>
             </div>
         </div>
     </div>
 
-    <script src="mywarnet.js"></script>
+    <script src="logout.js"></script>
 </body>
 </html>

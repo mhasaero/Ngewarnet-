@@ -1,0 +1,125 @@
+/* General Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #FFFFFF, #8798E4);
+}
+
+/* Sidebar */
+.sidebar {
+    background: linear-gradient(to bottom, #1A2A43, #426AA9);
+    color: white;
+    width: 250px;
+    padding: 20px;
+}
+
+.sidebar .profile {
+    text-align: center;
+}
+
+.sidebar .profile-img {
+    width: 80px;
+    height: 80px;
+    background: #ffffff33;
+    border-radius: 50%;
+    margin: 0 auto 10px auto;
+}
+
+.sidebar h3 {
+    margin: 10px 0 5px;
+}
+
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar nav ul li {
+    margin: 15px 0;
+}
+
+.sidebar nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+    transition: background 0.3s;
+    position: relative;
+}
+
+.sidebar nav ul li a:hover, .sidebar nav ul li a.active {
+    background: #ffffff33;
+}
+
+/* Modal Styles */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal.hidden {
+    display: none;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+
+.modal-content p {
+    font-size: 18px;
+    color: #1A2A43;
+    margin-bottom: 20px;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cancel-btn,
+.logout-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.cancel-btn {
+    background: #cccccc;
+    color: #333;
+}
+
+.cancel-btn:hover {
+    background: #aaaaaa;
+}
+
+.logout-btn {
+    background: #1A2A43;
+    color: white;
+}
+
+.logout-btn:hover {
+    background: #426AA9;
+}

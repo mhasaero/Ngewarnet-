@@ -29,3 +29,7 @@ Route::get('/mywarnet', function () {
 Route::get('/profile', function () {
     return view('profile');
 });
+
+Route::get('/logout', function () {
+    return view('logout');
+});

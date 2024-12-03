@@ -21,7 +21,7 @@
                 <ul>
                     <li><a href="mywarnet">My Warnet</a></li>
                     <li><a href="profile" class="active">Profile</a></li>
-                    <li><a href="#">Logout</a></li>
+                    <li><a href="logout">Logout</a></li>
                 </ul>
             </nav>
         </div>
