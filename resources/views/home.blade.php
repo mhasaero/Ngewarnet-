@@ -19,8 +19,8 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="#">My Warnet</a></li>
-                    <li><a href="#">Profile</a></li>
+                    <li><a href="mywarnet">My Warnet</a></li>
+                    <li><a href="profile">Profile</a></li>
                     <li><a href="#">Logout</a></li>
                 </ul>
             </nav>

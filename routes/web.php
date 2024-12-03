@@ -25,3 +25,7 @@ Route::get('/home', function () {
 Route::get('/mywarnet', function () {
     return view('mywarnet');
 });
+
+Route::get('/profile', function () {
+    return view('profile');
+});
